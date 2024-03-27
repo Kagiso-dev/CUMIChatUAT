@@ -18,6 +18,44 @@
 		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
 
+		embedded_svc.settings.extraPrechatFormDetails = [
+    			{
+    			"label" : "Brand",
+    			"value" : "Cape Union Mart",
+    			"transcriptFields" : ["Brand__c"]
+    			},
+    		 	{
+    			 "label" : "Customer Service Email",
+    			 "value" : "customer-service@capeunionmart.co.za",
+    			 "transcriptFields" : ["Customer_Service_Email__c"]
+    			},
+    			{
+    			 "label" : "Order Tracking URL",
+    			 "value" : "https://www.capeunionmart.co.za/on/demandware.store/Sites-CUM-Site/en_ZA/Order-Tracker",
+    			 "transcriptFields" : ["Order_Tracking_URL__c"]
+    			},
+    			 {
+    			 "label" : "Password Reset Link",
+    			 "value" : "https://www.capeunionmart.co.za/account/passwordreset",
+    			 "transcriptFields" : ["Password_Reset_Link__c"]
+    			},
+    			{
+    			 "label" : "Gift Card Status Link",
+    			 "value" : "https://www.capeunionmart.co.za/giftcardcheckbalance/",
+    			 "transcriptFields" : ["Gift_Card_Status_Link__c"]
+    			},
+	    		{
+    			 "label" : "Contact Us Link",
+    			 "value" : "https://www.capeunionmart.co.za/contact.html",
+    			 "transcriptFields" : ["Contact_Us_Link__c"]
+    			},
+	    		{
+		     	 "label" : "Login Link",
+    			 "value" : "https://www.capeunionmart.co.za/account/profile/",
+    			 "transcriptFields" : ["Login_Link__c"]
+			}
+    		];
+
 		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
 		//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
 
